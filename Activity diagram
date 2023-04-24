@@ -1,70 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T16:02:13.717Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="Lzl1ob6plJaKPrVq6nd6" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T16:15:57.148Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="0TIzBs4mytXuSaRW3FDO" version="21.2.1" type="github">
   <diagram name="Page-1" id="RcVLK8IJmyGHMRaqcbVY">
     <mxGraphModel dx="880" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cz_3FXy32gHORhThiqf_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-2" target="cz_3FXy32gHORhThiqf_-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-32" value="Activity Diagram for Automated Ticket issuing system" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="20" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-2" value="Start" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="150" width="100" height="60" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-33" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-4" target="cz_3FXy32gHORhThiqf_-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-4" value="Select Destination" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="250" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-5" target="cz_3FXy32gHORhThiqf_-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-5" value="Verify Destination" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="350" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-6" target="cz_3FXy32gHORhThiqf_-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-6" value="Validate Credit Card" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="545" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-8" target="cz_3FXy32gHORhThiqf_-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-8" value="Insert Credit Card" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="450" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-17" target="cz_3FXy32gHORhThiqf_-28">
+        <mxCell id="cz_3FXy32gHORhThiqf_-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-33" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="1010" as="targetPoint" />
+            <mxPoint x="235" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-17" value="Issue Ticket" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="880" width="100" height="60" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-35" value="Start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="175" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-18" target="cz_3FXy32gHORhThiqf_-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-18" value="Validate Transaction" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="770" width="100" height="60" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-37" value="Select Destination" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-19" target="cz_3FXy32gHORhThiqf_-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-37" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-19" value="Enter PIN" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="650" width="100" height="60" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-39" value="Verify Destination" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="395" y="995" width="30" height="30" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-39" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cz_3FXy32gHORhThiqf_-29" target="cz_3FXy32gHORhThiqf_-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-41" value="Insert Credit Card" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-29" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="395" y="50" width="30" height="30" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-41" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cz_3FXy32gHORhThiqf_-32" value="Activity Diagram for Automated Ticket issuing system" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="8" width="300" height="30" as="geometry" />
+        <mxCell id="cz_3FXy32gHORhThiqf_-43" value="validate Credit Card" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-43" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-45" value="Enter PIN" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-45" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-47" value="Validate Transaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-47" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-49" value="Issue Ticket" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-50" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cz_3FXy32gHORhThiqf_-49" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cz_3FXy32gHORhThiqf_-51" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="225" y="960" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

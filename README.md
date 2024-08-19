@@ -17,7 +17,7 @@ Hey there! 👋 I'm Elijah Frempong, a BSc Computer Science graduate and a passi
 🎓 Education: BSc in Computer Science from __KNUST__
 
 Let's connect, collaborate, and create something amazing together! 💻✨
-[www.linkedin.com/in/efrempong2] |
+[www.linkedin.com/in/efrempong2]
 
 <!---
 Elijah-6/Elijah-6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
